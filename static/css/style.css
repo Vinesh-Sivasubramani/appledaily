@@ -1,0 +1,19 @@
+.carousel-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    overflow: hidden;
+}
+
+html{
+    font-size: 14px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+

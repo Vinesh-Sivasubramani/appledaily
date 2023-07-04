@@ -1,0 +1,41 @@
+
+{% extends 'layout/index.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row featurette" style="margin-top: 100px;;">
+        <div class="col-md-7" style=" margin-bottom: 20px">
+          <h2 class="featurette-heading fw-normal lh-1">Hey,I'm VINESH  <span class="text-body-secondary">an electronics and communication engineering Student</span></h2>
+          <p class="lead">Created this beginner level blog project to test my skills in django</p>
+          
+          <a href="https://github.com/Vinesh-Sivasubramani">
+            <button class="btn btn-dark d-inline-flex align-items-center" type="button">
+                GitHub
+              </button>
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/vinesh-sivasubramani-17661a211/">
+            <button class="btn btn-primary d-inline-flex align-items-center" type="button">
+                LinkedIn
+              </button>
+          </a>
+
+          
+
+          
+
+        </div>
+        <div class="col-md-5" >
+          <img src="{% static 'images/about.jpg' %}"  style="height: 500px;" alt="">
+        </div>
+      </div>
+    
+
+</div>
+
+
+  {% endblock content%}
